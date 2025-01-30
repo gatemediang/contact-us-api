@@ -6,6 +6,7 @@ This is a simple Flask application that provides a public API to return informat
 
 - Python 3.x
 - Flask
+- flask-cors
 
 ## Installation
 
