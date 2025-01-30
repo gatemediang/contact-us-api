@@ -57,6 +57,13 @@ This is a simple Flask application that provides a public API to return informat
     - `current_datetime`: The current datetime as an ISO 8601 formatted timestamp.
     - `github_url`: The GitHub URL of the project's codebase.
 
+- **Response**
+- 200 Successful Response
+- 404 Not Found
+- 500 Internal Server Error
+
+    
+
 ## License
 
 This project is licensed under the MIT License.
