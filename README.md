@@ -50,12 +50,18 @@ This is a simple Flask application that provides a public API to return informat
 
 ## API Endpoint
 
-- **GET /api/info**
+- **GET `https://contact-us-api-a667.onrender.com/api/info`**
 
     Returns a JSON object with the following information:
     - `email`: The registered email address.
     - `current_datetime`: The current datetime as an ISO 8601 formatted timestamp.
     - `github_url`: The GitHub URL of the project's codebase.
+
+- **Request**
+- HTTP GET `https://<your-domain>/api/info`
+- curl -X GET `https://<your-domain>/api/info`
+Replace `<your-domain>` with the domain name or IP address where the Flask application is running.
+my domain name is `https://contact-us-api-a667.onrender.com`
 
 - **Response**
 - 200 Successful Response
