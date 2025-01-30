@@ -48,7 +48,9 @@ This is a simple Flask application that provides a public API to return informat
 
 3. Access the API at `http://127.0.0.1:5000/api/info`.
 
-## API Endpoint
+## API Documentation
+##### API DEPLOYED ON RENDER
+**API Endpoint**
 
 - **GET `https://contact-us-api-a667.onrender.com/api/info`**
 
