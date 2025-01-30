@@ -16,7 +16,7 @@ def get_info():
     data = load_data()
     info = {
         "email": data["email"],
-        "current_datetime": datetime.utcnow().isoformat(),
+        "current_datetime": datetime.utcnow().isoformat() + "Z",
         "github_url": data["github_url"],
          # Add version information
     }
