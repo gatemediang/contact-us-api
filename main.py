@@ -1,9 +1,11 @@
 import os
 import json
 from flask import Flask, jsonify
+from flask_cors import CORS
 from datetime import datetime
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 def load_data():
     with open('data.json') as f:
@@ -15,7 +17,8 @@ def get_info():
     info = {
         "email": data["email"],
         "current_datetime": datetime.utcnow().isoformat(),
-        "github_url": data["github_url"]
+        "github_url": data["github_url"],
+         # Add version information
     }
     return jsonify(info)
 
